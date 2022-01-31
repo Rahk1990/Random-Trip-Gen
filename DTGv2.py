@@ -42,10 +42,10 @@ def user_random_trip():
                print(f'Your new resturant will be {rand_resturants}.')
             elif user_choice == 3:
                rand_resturants = random.choice(resturants)
-               print(f'Your new resturant will be {rand_for_fun}.')
+               print(f'Your new activity will be {rand_for_fun}.')
             elif user_choice == 4:
                rand_resturants = random.choice(resturants)
-               print(f'Your new resturant will be {rand_travel_mode}.')
+               print(f'Your new travel will be {rand_travel_mode}.')
             elif user_choice == 5:
                 print(f'Thank you for confirming your trip! Enjoy your trip! Your random trip choice is {rand_for_fun}, {rand_resturants} for food, traveling by {rand_travel_mode} in {rand_destination}.')
                 confirmed = True
